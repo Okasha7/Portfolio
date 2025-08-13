@@ -1,8 +1,9 @@
-import HeroSection from "./src/components/HeroSection";
-import NavBar from "./src/components/NavBar";
-import AboutSection from "./src/components/AboutSection";
-import ProjectSection from "./src/components/ProjectSecetion";
-import EmailSection from "./src/components/EmailSection";
+import HeroSection from "./src/components/home/HeroSection";
+import NavBar from "./src/components/common/NavBar";
+import AboutSection from "./src/components/home/AboutSection";
+import ProjectSection from "./src/components/home/ProjectSecetion";
+import EmailSection from "./src/components/home/EmailSection";
+import FooterSection from "./src/components/common/FooterSection";
 export default function HomePage() {
   return (
     <main>
@@ -12,6 +13,7 @@ export default function HomePage() {
       <AboutSection/>
       <ProjectSection/>
       <EmailSection/>
+      <FooterSection/>
       </div>
     </main>
   );
